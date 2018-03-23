@@ -1,0 +1,235 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Highcharts Example</title>
+
+		<style type="text/css">
+
+#container {
+    max-width: 800px;
+    height: 400px;
+    margin: 1em auto;
+}
+
+		</style>
+	</head>
+	<body>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/modules/annotations.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/modules/exporting.js"></script>
+
+<div id="container" style="height: 400px; min-width: 380px"></div>
+
+<script type="text/javascript">
+
+var colors = ['#ECA038', '#A38456', '#EA614A', '#008836', '#20649B', '#6B96CA', '#A87A93', '#D19C95'];
+
+var pocetClenu = [
+  [1991,82537],
+  [1992,79337],
+  [1993,72088],
+  [1994,69313],
+  [1995,64484],
+  [1996,63464],
+  [1997,60087],
+  [1998,56979],
+  [1999,54989],
+  [2000,54543],
+  [2001,53028],
+  [2002,51264],
+  [2003,49851],
+  [2004,47863],
+  [2005,41967],
+  [2006,40583],
+  [2007,41844],
+  [2008,42349],
+  [2009,44638],
+  [2010,45252],
+  [2011,45586],
+  [2012,46687],
+  [2013,48093],
+  [2014,50438],
+  [2015,53028],
+  [2016,55533],
+  [2017,57840],
+  [2018,60522]
+];
+
+$(function () {
+
+    Highcharts.setOptions({
+            lang: {
+                months: ['leden', 'únor', 'březen', 'duben', 'květen', 'červen', 'červenec', 'srpen', 'září', 'říjen', 'listopad', 'prosinec'],
+                weekdays: ['neděle', 'pondělí', 'úterý', 'středa', 'čtvrtek', 'pátek', 'sobota'],
+                shortMonths: ['leden', 'únor', 'březen', 'duben', 'květen', 'červen', 'červenec', 'srpen', 'září', 'říjen', 'listopad', 'prosinec'],
+                thousandsSep: '',
+                decimalPoint:',',
+                rangeSelectorZoom: 'Zobrazit'
+            }
+        });
+
+Highcharts.chart('container', {
+
+    chart: {
+        type: 'area',
+        zoomType: 'x',
+        panning: true,
+        panKey: 'shift'
+    },
+
+    title: {
+        text: 'Junák, počet členů'
+    },
+
+    subtitle: {
+        text: ''
+    },
+
+    annotations: [{
+        labelOptions: {
+            backgroundColor: 'rgba(255,255,255,0.5)',
+            verticalAlign: 'top',
+            y: 15
+        },
+        labels: [{
+            point: {
+                xAxis: 0,
+                yAxis: 0,
+                x: 1997,
+                y: 52000
+            },
+            text: 'Generační obměna v 90. letech'
+        }]
+    }, {
+        labelOptions: {
+            shape: 'connector',
+            align: 'left',
+            justify: false,
+            crop: true,
+            style: {
+                fontSize: '0.8em',
+                textOutline: '1px white'
+            }
+        },
+        labels: [{
+            point: {
+                xAxis: 0,
+                yAxis: 0,
+                x: 1991,
+                y: 87000
+            },
+            text: '1989: Znovuzaložení Junáka'
+        }, {
+            point: {
+                xAxis: 0,
+                yAxis: 0,
+                x: 1992,
+                y: 79337
+            },
+            text: 'Návrat do světových organizací'
+        }, {
+            point: {
+                xAxis: 0,
+                yAxis: 0,
+                x: 1997,
+                y: 60087
+            },
+            text: 'Středoevropské jamboree<br>Fénix v Praze'
+        }, {
+            point: {
+                xAxis: 0,
+                yAxis: 0,
+                x: 2005,
+                y: 41967
+            },
+            text: 'Přijata Charta<br>nového skautingu'
+        }, {
+            point: {
+                xAxis: 0,
+                yAxis: 0,
+                x: 2006,
+                y: 40583
+            },
+            x: 40,
+            y: 35,
+            text: 'Středoevropské jamboree<br>Orbis v Brně'
+        }, {
+            point: {
+                xAxis: 0,
+                yAxis: 0,
+                x: 2014,
+                y: 50438
+            },
+            x: 40,
+            y: -30,
+            text: 'Středoevropské jamboree<br>v Doksech'
+        }]
+    }],
+
+    xAxis: {
+        labels: {
+            format: '{value}'
+        },
+        minRange: 5,
+        title: {
+            text: ''
+        }
+    },
+
+    yAxis: {
+        startOnTick: true,
+        endOnTick: false,
+        maxPadding: 0.35,
+        title: {
+            text: null
+        },
+        labels: {
+            format: '{value}'
+        },
+        title: {
+            text: 'počet členů'
+        }
+    },
+
+    tooltip: {
+        headerFormat: '<b>{point.y}</b> členů<br>',
+        pointFormat: '(rok {point.x})',
+        shared: true
+    },
+
+    legend: {
+        enabled: false
+    },
+
+    exporting: {
+        enabled: false
+    },
+
+    credits: {
+        href : 'https://www.skaut.cz/',
+        text : 'Zdroj: Skaut'
+    },
+
+    series: [{
+        data: pocetClenu,
+        lineColor: 'black',
+        color: '#294885',
+        fillOpacity: 0.5,
+        name: '',
+        marker: {
+            enabled: false
+        },
+        threshold: null
+    }]
+
+});
+
+});
+
+		</script>
+	</body>
+</html>

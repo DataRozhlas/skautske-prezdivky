@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Highcharts Example</title>
+
+		<style type="text/css">
+
+		</style>
+	</head>
+	<body>
+
+<div id="container" style="min-width: 310px; max-width: 500px; height: 400px; margin: 0 auto"></div>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/modules/annotations.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/modules/exporting.js"></script>
+
+		<script type="text/javascript">
+
+var prezdivky = [
+  ["Veverka",110],
+  ["Smíšek",84],
+  ["Beruška",79],
+  ["Myška",75],
+  ["Klíště",72],
+  ["Krtek",71],
+  ["Bobr",69],
+  ["Mája",68],
+  ["Pája",64],
+  ["Medvěd",63],
+  ["Ježek",63],
+  ["Míša",61],
+  ["Kiki",57],
+  ["Liška",57],
+  ["Tom",56],
+  ["Panda",56],
+  ["Kecka",54],
+  ["Ještěrka",51],
+  ["Žabka",50],
+  ["Cvrček",50]
+]
+
+var xdata = prezdivky.map(function(d) {
+        return d[0]
+    })
+
+var colors = ['#ECA038', '#A38456', '#EA614A', '#008836', '#20649B', '#6B96CA', '#A87A93', '#D19C95'];
+
+Highcharts.chart('container', {
+
+    chart: {
+        type: 'column'
+    },
+
+    title: {
+        text: 'Junák, nejčastější přezdívky'
+    },
+
+    subtitle: {
+        text: ''
+    },
+
+    xAxis: {
+        categories: xdata
+    },
+
+    yAxis: {
+        title: {
+            text: 'Skauti s přezdívkou'
+        }
+    },
+
+    tooltip: {
+        pointFormat: '<b>{point.y}×</b>'
+    },
+
+    exporting: {
+        enabled: false
+    },
+
+    credits: {
+        enabled: false
+    },
+
+    legend: {
+        enabled: false
+    },
+
+    series: [{
+        name: 'přezdívky',
+        data: prezdivky,
+        color: colors[0]
+    }]
+});
+		</script>
+	</body>
+</html>

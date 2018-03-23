@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Highcharts Example</title>
+
+		<style type="text/css">
+
+		</style>
+	</head>
+	<body>
+
+<div id="cmaugli" style="min-width: 310px; max-width: 500px; height: 400px; margin: 0 auto"></div>
+<div id="csipy" style="min-width: 310px; max-width: 500px; height: 400px; margin: 0 auto"></div>
+<div id="cus" style="min-width: 310px; max-width: 500px; height: 400px; margin: 0 auto"></div>
+<div id="ctolkien" style="min-width: 310px; max-width: 500px; height: 400px; margin: 0 auto"></div>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/modules/annotations.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/modules/exporting.js"></script>
+
+		  <script type="text/javascript">
+
+var maugli = [
+  ["Akéla",27],
+  ["Balů",25],
+  ["Mauglí",22],
+  ["Ká",4],
+  ["Baghíra",2],
+  ["Šerchán",2],
+  ["Háthí",1]
+]
+
+var sipy = [
+  ["Bublina",32],
+  ["Rychlonožka",14],
+  ["Bidlo",13],
+  ["Červenáček",11],
+  ["Bohouš",10],
+  ["Rikitan",5],
+  ["Metelka",2],
+  ["Losna",2],
+  ["Široko",1],
+  ["Mirek Dušín",1],
+]
+
+var us = [
+  ["Jerry",39],
+  ["Johny",38],
+  ["Andy",31],
+  ["Harry",19],
+  ["Dave",18],
+  ["Mary",15],
+  ["Sid",13],
+  ["George",13],
+  ["Kitty",12],
+  ["Jack",12]
+]
+
+var tolkien = [
+  ["Smíšek",84],
+  ["Hobit",17],
+  ["Glum",13],
+  ["Frodo",12],
+  ["Gandalf",9],
+  ["Pipin",5],
+  ["Bilbo",4],
+  ["Legolas",3],
+  ["Thorin",2],
+  ["Gimli",2]
+]
+
+var xmaugli = maugli.map(function(d) {
+        return d[0]
+    })
+
+var xsipy = sipy.map(function(d) {
+        return d[0]
+    })
+
+var xus = us.map(function(d) {
+        return d[0]
+    })
+
+var xtolkien = tolkien.map(function(d) {
+        return d[0]
+    })
+
+var colors = ['#ECA038', '#A38456', '#EA614A', '#008836', '#20649B', '#6B96CA', '#A87A93', '#D19C95'];
+
+Highcharts.chart('cmaugli', {
+
+    chart: {
+        type: 'column'
+    },
+
+    title: {
+        text: 'Kniha džunglí'
+    },
+
+    xAxis: {
+        categories: xmaugli
+    },
+
+    yAxis: {
+        title: ''
+    },
+
+    tooltip: {
+        pointFormat: '<b>{point.y}×</b>'
+    },
+
+    exporting: {
+        enabled: false
+    },
+
+    credits: {
+        enabled: false
+    },
+
+    legend: {
+        enabled: false
+    },
+
+    series: [{
+        name: 'přezdívky',
+        data: maugli,
+        color: colors[1]
+    }]
+});
+
+Highcharts.chart('csipy', {
+
+    chart: {
+        type: 'column'
+    },
+
+    title: {
+        text: 'Rychlé šípy'
+    },
+
+    xAxis: {
+        categories: xsipy
+    },
+
+    yAxis: {
+        title: ''
+    },
+
+    tooltip: {
+        pointFormat: '<b>{point.y}×</b>'
+    },
+
+    exporting: {
+        enabled: false
+    },
+
+    credits: {
+        enabled: false
+    },
+
+    legend: {
+        enabled: false
+    },
+
+    series: [{
+        name: 'přezdívky',
+        data: sipy,
+        color: colors[2]
+    }]
+});
+
+Highcharts.chart('cus', {
+
+    chart: {
+        type: 'column'
+    },
+
+    title: {
+        text: 'Anglická jména'
+    },
+
+    xAxis: {
+        categories: xus
+    },
+
+    yAxis: {
+        title: ''
+    },
+
+    tooltip: {
+        pointFormat: '<b>{point.y}×</b>'
+    },
+
+    exporting: {
+        enabled: false
+    },
+
+    credits: {
+        enabled: false
+    },
+
+    legend: {
+        enabled: false
+    },
+
+    series: [{
+        name: 'přezdívky',
+        data: us,
+        color: colors[3]
+    }]
+});
+
+Highcharts.chart('ctolkien', {
+
+    chart: {
+        type: 'column'
+    },
+
+    title: {
+        text: 'Tolkien'
+    },
+
+    xAxis: {
+        categories: xtolkien
+    },
+
+    yAxis: {
+        title: ''
+    },
+
+    tooltip: {
+        pointFormat: '<b>{point.y}×</b>'
+    },
+
+    exporting: {
+        enabled: false
+    },
+
+    credits: {
+        enabled: false
+    },
+
+    legend: {
+        enabled: false
+    },
+
+    series: [{
+        name: 'přezdívky',
+        data: tolkien,
+        color: colors[4]
+    }]
+});
+
+		</script>
+	</body>
+</html>
