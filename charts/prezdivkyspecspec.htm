@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Highcharts Example</title>
+
+		<style type="text/css">
+
+		</style>
+	</head>
+	<body>
+
+<div id="cptaci" style="min-width: 310px; max-width: 500px; height: 400px; margin: 0 auto"></div>
+<div id="crodina" style="min-width: 310px; max-width: 500px; height: 400px; margin: 0 auto"></div>
+<div id="cpecivo" style="min-width: 310px; max-width: 500px; height: 400px; margin: 0 auto"></div>
+<div id="cinterpunkce" style="min-width: 310px; max-width: 500px; height: 400px; margin: 0 auto"></div>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/modules/annotations.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/modules/exporting.js"></script>
+
+		  <script type="text/javascript">
+
+var ptaci = [
+  ["Orel",34],
+  ["Kuře",34],
+  ["Sova",32],
+  ["Sojka",29],
+  ["Sokol",24],
+  ["Papoušek",21],
+  ["Datel",20],
+  ["Racek",18],
+  ["Kukačka",16],
+  ["Poštolka",15]
+]
+
+var rodina = [
+  ["Děda",11],
+  ["Teta",9],
+  ["Brácha",9],
+  ["Strejda",7],
+  ["Taťka",7],
+  ["Dědek",7],
+  ["Mamča",7],
+  ["Babča",6],
+  ["Omyl",3],
+  ["Synek",2]
+]
+
+var pecivo = [
+  ["Piškot",45],
+  ["Rohlík",8],
+  ["Houska",8],
+  ["Preclík",6],
+  ["Koblih",5],
+  ["Bageta",4],
+  ["Štrůdl",3],
+  ["Chleba",2],
+  ["Loupák",1],
+  ["Kaiserka",1]
+]
+
+var interpunkce = [
+  ["Tečka",13],
+  ["Otazník",11],
+  ["Čárka",3],
+  ["Vykřičník",2]
+]
+
+var xptaci = ptaci.map(function(d) {
+        return d[0]
+    })
+
+var xrodina = rodina.map(function(d) {
+        return d[0]
+    })
+
+var xpecivo = pecivo.map(function(d) {
+        return d[0]
+    })
+
+var xinterpunkce = interpunkce.map(function(d) {
+        return d[0]
+    })
+
+var colors = ['#ECA038', '#A38456', '#EA614A', '#008836', '#20649B', '#6B96CA', '#A87A93', '#D19C95'];
+
+Highcharts.chart('cptaci', {
+
+    chart: {
+        type: 'column'
+    },
+
+    title: {
+        text: 'Ptáci'
+    },
+
+    xAxis: {
+        categories: xptaci
+    },
+
+    yAxis: {
+        title: ''
+    },
+
+    tooltip: {
+        pointFormat: '<b>{point.y}×</b>'
+    },
+
+    exporting: {
+        enabled: false
+    },
+
+    credits: {
+        enabled: false
+    },
+
+    legend: {
+        enabled: false
+    },
+
+    series: [{
+        name: 'přezdívky',
+        data: ptaci,
+        color: colors[5]
+    }]
+});
+
+Highcharts.chart('crodina', {
+
+    chart: {
+        type: 'column'
+    },
+
+    title: {
+        text: 'Rodina'
+    },
+
+    xAxis: {
+        categories: xrodina
+    },
+
+    yAxis: {
+        title: ''
+    },
+
+    tooltip: {
+        pointFormat: '<b>{point.y}×</b>'
+    },
+
+    exporting: {
+        enabled: false
+    },
+
+    credits: {
+        enabled: false
+    },
+
+    legend: {
+        enabled: false
+    },
+
+    series: [{
+        name: 'přezdívky',
+        data: rodina,
+        color: colors[6]
+    }]
+});
+
+Highcharts.chart('cpecivo', {
+
+    chart: {
+        type: 'column'
+    },
+
+    title: {
+        text: 'Pečivo'
+    },
+
+    xAxis: {
+        categories: xpecivo
+    },
+
+    yAxis: {
+        title: ''
+    },
+
+    tooltip: {
+        pointFormat: '<b>{point.y}×</b>'
+    },
+
+    exporting: {
+        enabled: false
+    },
+
+    credits: {
+        enabled: false
+    },
+
+    legend: {
+        enabled: false
+    },
+
+    series: [{
+        name: 'přezdívky',
+        data: pecivo,
+        color: colors[7]
+    }]
+});
+
+Highcharts.chart('cinterpunkce', {
+
+    chart: {
+        type: 'column'
+    },
+
+    title: {
+        text: 'Interpunkce'
+    },
+
+    xAxis: {
+        categories: xinterpunkce
+    },
+
+    yAxis: {
+        title: ''
+    },
+
+    tooltip: {
+        pointFormat: '<b>{point.y}×</b>'
+    },
+
+    exporting: {
+        enabled: false
+    },
+
+    credits: {
+        enabled: false
+    },
+
+    legend: {
+        enabled: false
+    },
+
+    series: [{
+        name: 'přezdívky',
+        data: interpunkce,
+        color: colors[0]
+    }]
+});
+
+		</script>
+	</body>
+</html>
