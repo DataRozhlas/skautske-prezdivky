@@ -1,40 +1,40 @@
-title: "TADY BUDE TITULEK"
-perex: "TADY BUDE PEREX"
+title: "Akéla, Rikitan nebo Řízek. Jaké byly nejčastější skautské přezdívky v minulosti a jaké jsou dnes?"
+perex: "Junák slaví 50 let od znovupovolení během Pražského jara. Stejně jako tehdy, i dnes skauti zažívají velký návrat."
 authors: ["Jan Boček", "Jan Cibulka"]
 published: "29. března 2018"
-coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/img_7056_zdroj_-_arc_180126-204935_mos.jpg?itok=L2XF3ADL
-coverimg_note: "Foto <a href='#'>ČTK</a>"
+coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/img_7056_zdroj_-_arc_180327-213650_jab.jpg?itok=e0oyIMHU
+coverimg_note: "Záběry ze skautského tábora. Foto: archiv Břetislava Loubala"
 styles: []
 libraries: [jquery, highcharts, 'https://code.highcharts.com/modules/annotations.js']
 options: []
 ---
 
-## Jaké jsou nejčastější skautské přezdívky?
+### Nejčastější skautské přezdívky
 
-TADY BUDE SEARCHBOX
+TADY BUDE SEARCHBOX VE VŠECH PŘEZDÍVKÁCH
 
-<wide><div id="prezdivky"></div></wide>
+Skautské přezdívky ilustrují dějiny komplikovaného dvacátého století. Tři zákazy skauta – nacistický v roce 1940, stalinistický o deset let později a normalizační v roce 1970 – se odráží i v dobových přezdívkách.
 
-NĚJAKÝ ÚVODNÍ TEXT, ASI HROZNÝŠ VČ. CITACE
+Přestože známe přezdívky pouze současných členů Junáka, jejich věk prozrazuje jména typická pro různá období. Nejstarší generace skautů se nejčastěji inspirovala postavami z Kiplingovy Knihy džunglí: Mauglí, Akéla nebo Balů.
 
-Data zároveň ukazují, jaké přezdívky byly populární v různých obdobích. Skauti narození ve dvacátých nebo třicátých letech minulého století mají nejčastěji jména postav z Kiplingovy Knihy džunglí: Mauglí, Akéla nebo Balů.
+„Skautské aktivity mají vždy nějaký symbolický rámec,“ vysvětluje mluvčí Junáka Barbora Trojak, sama Brambora. „Program vlčat, to jsou přibližně desetiletí kluci, skauti dodnes rámují právě Knihou džunglí.“
 
-„Skautské aktivity mají vždy nějaký symbolický rámec,“ vysvětluje mluvčí českého skauta Barbora Trojak, sama Brambora. „V tomhle období se program vlčáků, to je přibližně desetiletých kluků, rámoval právě Knihou džunglí.
-
-Skautské přezdívky ilustrují dějiny komplikovaného dvacátého století. V době německé okupace skauti zanikli, nakrátko byli obnoveni v roce 1945. Generace, která vstupovala do skauta po osvobození, si ráda nechala říkat anglicky znějícími jmény – Johny, Mary, George.
-
-Další příležitost dostalo skautské hnutí v roce 1968. Tentokrát jen na dva roky. Generace šedesátých let nicméně zanechala v datech stopu v podobě Rychlonožků, Bidel a Červenáčků.
-
-Po dosud posledním obnovení skauta v roce 1989 se zase začaly objevovat přezdívky z tolkienovských příběhů: Hobit, Glum, Frodo nebo Gandalf.
+Generace, která vstupovala do skauta krátce po osvobození, si zase ráda nechala říkat anglicky znějícími jmény – Johny, Mary, George.
 
 <div style="width: 800px; overflow: hidden; display: block;"><div id="maugli"></div><div id="us"></div></div>
 <div style="width: 800px; overflow: hidden; display: block;"><div id="sipy"></div><div id="tolkien"></div></div>
+
+Další příležitost dostalo skautské hnutí v roce 1968. Tentokrát jen na dva roky. Generace šedesátých let nicméně zanechala v datech stopu v podobě Rychlonožků, Bidel a Červenáčků.
 
 Během krátkého uvolnění v šedesátých letech do skautu vstoupila řada osobností. Mohlo se tam dát dohromady třeba divadlo Sklep: skautovat začal sklepácký režisér Václav Marhoul, herci Eva Holubová, David Vávra nebo Tomáš Hanák.
 
 CITACE TOMÁŠE HANÁKA
 
-Většina skautských přezdívek se ale neváže k žádnému historickému období a vychází ze sdílených zážitků. Nejčastějším zdrojem jsou zvířecí jména; vůbec nejobvyklejší skautskou přezdívkou je _Veverka_, nejoblíbenějšími ptačími přezdívkami jsou protichůdní _Orel_ a _Kuře_. Běžná je také rodina, pečivo nebo interpunkce.
+Po dosud posledním obnovení skauta v roce 1989 zase začaly být populární přezdívky z tolkienovských příběhů: Hobit, Glum, Frodo nebo Gandalf.
+
+Většina skautských přezdívek se ale neváže k žádnému historickému období a vychází spíš ze sdílených zážitků. Nejčastějším zdrojem jsou zvířecí jména; vůbec nejobvyklejší skautskou přezdívkou je _Veverka_, nejoblíbenějšími ptačími přezdívkami jsou protichůdní _Orel_ a _Kuře_. Běžná je také rodina, pečivo nebo interpunkce.
+
+<wide><div id="prezdivky"></div></wide>
 
 <div style="width: 800px; overflow: hidden; display: block;"><div id="rodina"></div><div id="ptaci"></div></div>
 <div style="width: 800px; overflow: hidden; display: block;"><div id="pecivo"></div><div id="interpunkce"></div></div>
@@ -73,14 +73,6 @@ To se skautům podařilo. Od roku 2009, kdy mají k dispozici spolehlivá data o
 
 „Postupně jsme se také dopracovali k systému vzdělávání dospívajících a dospělých, díky kterému se kluci a holky v oddílech setkávají s opravdu atraktivním programem reagujícím na vývoj a trendy ve společnosti,“ dodává Trojak.
 
-<wide><div style="overflow: hidden; box-sizing: border-box;">
-<div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky1918.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"</div>
-<div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky1968.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"/></div>
-<div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky2018.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"/></div>
-</div></wide>
-
-_Jednou z činností, která se během sta let proměnila, jsou takzvané odborky, skautská varianta lovení bobříků. Fotky ukazují podobu odborek mezi válkami, v roce 1968 a dnes. Zatímco ještě před rokem 1918 se skládaly zkoušky z oborů jako_ chůva _a_ korespondent, _dnes_ je to deskovkář, geocacher _nebo_ smartphonista. _Foto: Junák_
-
 ## Skauti rostou na Ústecku
 
 Skautské základny jsou po Česku rozprostřené poměrně rovnoměrně: nejhustší síť je logicky ve velkých městech, ale početně silné oddíly najdeme i v menších obcích.
@@ -102,6 +94,14 @@ Oproti tomu v Karlovarském kraji se počítají na stovky a jde také o jediný
 „Karlovarský kraj má mnoho specialit,“ vysvětluje Martin Dvořák z krajské rady Junáka. „Mezi ně patří absence dobrých středních a vysokých škol i špatná nabídka práce. Mnoho dětí odjede na střední školy do Plzně, Prahy, nebo dokonce Brna, a nevracejí se.
 
 „Právě stárnutí a vylidňování kraje je asi největší problém,“ pokračuje Dvořák. „Ostatně členové krajské rady sami pracují v jiných krajích, většinou v Praze. Což je velmi neobvyklé a komplikuje nám to práci.“
+
+<wide><div style="overflow: hidden; box-sizing: border-box;">
+<div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky1918.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"</div>
+<div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky1968.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"/></div>
+<div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky2018.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"/></div>
+</div></wide>
+
+_Jednou z činností, která se během sta let proměnila, jsou takzvané odborky, skautská varianta lovení bobříků. Fotky ukazují podobu odborek mezi válkami, v roce 1968 a dnes. Zatímco ještě před rokem 1918 se skládaly zkoušky z oborů jako_ chůva _a_ korespondent, _dnes_ je to deskovkář, geocacher _nebo_ smartphonista. _Foto: Junák_
 
 Zanikající oddíly chtějí skauti vyvážit zakládáním oddílů „na zelené louce“. Snaží se vytipovat místa, kde je o skauting zájem a středisko zde chybí.
 

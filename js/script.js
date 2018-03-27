@@ -427,7 +427,7 @@ Highcharts.chart('prezdivky', {
     series: [{
         name: 'přezdívky',
         data: prezdivky,
-        color: colors[0]
+        color: colors[1]
     }]
 
 });
@@ -756,7 +756,7 @@ Highcharts.chart('interpunkce', {
     series: [{
         name: 'přezdívky',
         data: interpunkce,
-        color: colors[0]
+        color: colors[2]
     }]
 });
 
