@@ -47,7 +47,9 @@ Během sedmdesátých a osmdesátých let, kdy byl skaut opět v ilegalitě, se 
 
 Sám Kočí ovšem takové indiánské jméno nikdy nezískal. „Měl jsem asi málo orlích per, to byla u nás indiánů obdoba známějších bobříků,“ vzpomíná.
 
-FOTKA _Středoevropští indiáni na konci normalizace – novoročenka pražského kmene Sihasapa z roku 1989 Foto: archiv Petra Kočího_
+<img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/sihasapa.jpg" width=600px>
+
+_Středoevropští indiáni na konci normalizace – novoročenka pražského kmene Sihasapa z roku 1989. Foto: archiv Petra Kočího_
 
 „Před revolucí jsme byli součástí Svazarmu,“ říká Kočí. „Pak jsme se začlenili do Junáka, ale vždycky jsme si od něj udržovali trochu odstup. Přišel mi tehdy jako polovojenská organizace a my indiáni jsme byli divočejší a svobodomyslnější, aspoň tak mi to tehdy připadalo.“
 
@@ -71,7 +73,13 @@ To se skautům podařilo. Od roku 2009, kdy mají k dispozici spolehlivá data o
 
 „Postupně jsme se také dopracovali k systému vzdělávání dospívajících a dospělých, díky kterému se kluci a holky v oddílech setkávají s opravdu atraktivním programem reagujícím na vývoj a trendy ve společnosti,“ dodává Trojak.
 
-FOTKY ODBOREK _Jednou z činností, která se během sta let proměnila, jsou takzvané odborky, skautská varianta lovení bobříků. Před rokem 1918 se skládaly zkoušky z oborů jako_ chůva _a_ korespondentka, _dnes_ deskovkář, geocacher _nebo_ smartphonista.
+<wide><div style="overflow: hidden; box-sizing: border-box;">
+<div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky1918.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"</div>
+<div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky1968.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"/></div>
+<div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky2018.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"/></div>
+</div></wide>
+
+_Jednou z činností, která se během sta let proměnila, jsou takzvané odborky, skautská varianta lovení bobříků. Před rokem 1918 se skládaly zkoušky z oborů jako_ chůva _a_ korespondentka, _dnes_ deskovkář, geocacher _nebo_ smartphonista. _Foto: Junák_
 
 ## XXX
 
@@ -116,7 +124,3 @@ V Česku zase před dvěma lety vznikl oddíl židovských skautů Tuvia.
 Oddíl navazuje na tradici prvorepublikového židovského skautingu. Cílem bylo vychovat skauty k odchodu do pouště a práci na novém židovském státu.
 
 „Byli tak úspěšní, že měli problém s udržením členské základny, protože se jim členové stěhovali do Palestiny a tím pádem jim ubývali tady,“ doplňuje Šiková.
-
-<wide><div style="overflow: hidden; box-sizing: border-box;"><div><img src="https://dev.datarozhlas.cz/olympiada-doping/fotky/grafy/koule.png" style="max-width: 100%; position: relative; float: left"/><div><img src="https://dev.datarozhlas.cz/olympiada-doping/fotky/grafy/disk.png" style="max-width: 100%; position: relative; float: left"/><div><img src="https://dev.datarozhlas.cz/olympiada-doping/fotky/grafy/400m.png" style="max-width: 100%; position: relative; float: left"/><div><img src="https://dev.datarozhlas.cz/olympiada-doping/fotky/grafy/maraton.png" style="max-width: 100%; position: relative; float: left"/></div></wide>
-
-<img src="https://dev.datarozhlas.cz/olympiada-doping/fotky/grafy/legenda.png">
