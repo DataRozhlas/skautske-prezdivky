@@ -1,3 +1,21 @@
-/*
-CSS soubory ve složce /styles/ se do výsledného článku zakompilují automaticky
-*/
+#clenove, #prezdivky {
+    max-width: 800px;
+    min-width: 310px;
+    height: 400px;
+    margin: 1em auto;
+}
+
+#slozeni {
+    max-width: 400px;
+    min-width: 310px;
+    height: 500px;
+    margin: 1em auto;
+}
+
+#maugli, #us, #sipy, #tolkien, #rodina, #ptaci, #pecivo, #interpunkce {
+    max-width: 350px;
+    min-width: 310px;
+    height: 250px;
+    margin: 1em auto;
+    float: left;
+}
