@@ -1,8 +1,8 @@
-title: "XXX"
-perex: "XXX"
+title: "TADY BUDE TITULEK"
+perex: "TADY BUDE PEREX"
 authors: ["Jan Boček", "Jan Cibulka"]
 published: "29. března 2018"
-coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
+coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/img_7056_zdroj_-_arc_180126-204935_mos.jpg?itok=L2XF3ADL
 coverimg_note: "Foto <a href='#'>ČTK</a>"
 styles: []
 libraries: [jquery, highcharts, 'https://code.highcharts.com/modules/annotations.js']
@@ -39,7 +39,7 @@ Většina skautských přezdívek se ale neváže k žádnému historickému obd
 <div style="width: 800px; overflow: hidden; display: block;"><div id="rodina"></div><div id="ptaci"></div></div>
 <div style="width: 800px; overflow: hidden; display: block;"><div id="pecivo"></div><div id="interpunkce"></div></div>
 
-## XXX
+## Indiáni na konci normalizace
 
 Během sedmdesátých a osmdesátých let, kdy byl skaut opět v ilegalitě, se jeho příznivci nejčastěji schovávali v různých sportovních a turistických organizacích nebo Svazarmu, sdružujícím sportovní svazy. Tímhle způsobem se ukrýval například Druhý pražský oddíl _Hoši od Bobří řeky_, v letech 1927 až 1987 vedený Jaroslavem Foglarem. Podobně přežívaly i další skupiny, vzdálené oficiální komunistické ideologii: třeba čeští indiáni.
 
@@ -79,9 +79,9 @@ To se skautům podařilo. Od roku 2009, kdy mají k dispozici spolehlivá data o
 <div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky2018.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"/></div>
 </div></wide>
 
-_Jednou z činností, která se během sta let proměnila, jsou takzvané odborky, skautská varianta lovení bobříků. Před rokem 1918 se skládaly zkoušky z oborů jako_ chůva _a_ korespondentka, _dnes_ deskovkář, geocacher _nebo_ smartphonista. _Foto: Junák_
+_Jednou z činností, která se během sta let proměnila, jsou takzvané odborky, skautská varianta lovení bobříků. Fotky ukazují podobu odborek mezi válkami, v roce 1968 a dnes. Zatímco ještě před rokem 1918 se skládaly zkoušky z oborů jako_ chůva _a_ korespondent, _dnes_ je to deskovkář, geocacher _nebo_ smartphonista. _Foto: Junák_
 
-## XXX
+## Skauti rostou na Ústecku
 
 Skautské základny jsou po Česku rozprostřené poměrně rovnoměrně: nejhustší síť je logicky ve velkých městech, ale početně silné oddíly najdeme i v menších obcích.
 
@@ -109,7 +109,7 @@ Zanikající oddíly chtějí skauti vyvážit zakládáním oddílů „na zele
 
 „Jednu z největších výzev je změnit názor, že skautský oddíl může začít vést pouze někdo, kdo si sám skautingem prošel jako dítě,“ dodává Pavlásková.
 
-## XXX
+## Celosvětově je mezi skauty nejvíc muslimů
 
 Řada českých skautských oddílů se hlásí ke křesťanství.
 
