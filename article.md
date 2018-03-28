@@ -15,9 +15,9 @@ TADY BUDE SEARCHBOX VE VŠECH PŘEZDÍVKÁCH
 
 Skautské přezdívky ilustrují dějiny komplikovaného dvacátého století. Tři zákazy skauta – nacistický v roce 1940, stalinistický o deset let později a normalizační v roce 1970 – se odráží i v dobových přezdívkách.
 
-Přestože známe přezdívky pouze současných členů Junáka, jejich věk prozrazuje jména typická pro různá období. Nejstarší generace skautů se nejčastěji inspirovala postavami z Kiplingovy Knihy džunglí: Mauglí, Akéla nebo Balů.
+Počet skautů letos překonal šedesát tisíc, z toho se přibližně třetina hlásí k nějaké přezdívce. Přestože známe přezdívky pouze současných členů Junáka, jejich věk prozrazuje jména typická pro různá období. Nejstarší generace skautů se nejčastěji inspirovala postavami z Kiplingovy Knihy džunglí: Mauglí, Akéla nebo Balů.
 
-„Skautské aktivity mají vždy nějaký symbolický rámec,“ vysvětluje mluvčí Junáka Barbora Trojak, sama Brambora. „Program vlčat, to jsou přibližně desetiletí kluci, skauti dodnes rámují právě Knihou džunglí.“
+„Skautské aktivity mají vždy nějaký symbolický rámec,“ vysvětluje mluvčí Junáka Barbora Trojak, sama Brambora. „Program vlčat, to jsou přibližně desetiletí kluci, dodnes vychází právě z Knihy džunglí.“
 
 Generace, která vstupovala do skauta krátce po osvobození, si zase ráda nechala říkat anglicky znějícími jmény – Johny, Mary, George.
 
@@ -28,7 +28,11 @@ Další příležitost dostalo skautské hnutí v roce 1968. Tentokrát jen na d
 
 Během krátkého uvolnění v šedesátých letech do skautu vstoupila řada osobností. Mohlo se tam dát dohromady třeba divadlo Sklep: skautovat začal sklepácký režisér Václav Marhoul, herci Eva Holubová, David Vávra nebo Tomáš Hanák.
 
-CITACE TOMÁŠE HANÁKA
+„Na nějakém papíře na sloupech bylo ručně napsáno, že se zakládá oddíl vodních skautů,“ popisuje své skautské začátky Tomáš Hanák. „Bylo to, myslím, ještě před okupací, to mi bylo jedenáct let. Na těch sloupech bylo napsáno, že oddíl vede bratr Beneš. Já jsme se omylem domníval, že tam není br. Beneš, ale dr. Beneš, tak jsem ho měl za lékaře, čemuž vůbec neodpovídaly jeho hrubé ruce. Často jsem si říkal, že to vůbec nemůže být chirurg nebo lékař. Byl to br. Beneš, ne dr. Beneš!“
+
+„Musím říct, že třeba bobříci byli strašně příjemní. Třeba bobřík mlčení byla velká zkouška a já s tím dodnes vůbec nemám problém.“
+
+„V posledních letech navíc sám cestuji a cestuji skutečně sám,“ pokračuje Hanák. „Často nemám mapu ani navigaci, ale nebojím se jít někam, kde to neznám. Říkám si, že možnost, že zemřu, je až ta poslední. Třeba tam bude nějaké dobrodružství!“
 
 Po dosud posledním obnovení skauta v roce 1989 zase začaly být populární přezdívky z tolkienovských příběhů: Hobit, Glum, Frodo nebo Gandalf.
 
@@ -67,11 +71,23 @@ Propad skončil teprve v roce 2006 na 40 tisících členů.
 
 To se skautům podařilo. Od roku 2009, kdy mají k dispozici spolehlivá data o počtech členů, nejrychleji přibývalo vlčat a světlušek, tedy dětí mezi osmi a deseti lety. Před třemi lety navíc vznikla kategorie benjamínků pro děti od pěti do sedmi let.
 
-„Loni jsme na táborech napočítali téměř 400 tisíc děťodnů,“ dodává tisková mluvčí Junáka.
+„Loni jsme na táborech napočítali téměř 400 tisíc děťodnů,“ dodává mluvčí Junáka.
+
+Na rostoucím počtu benjamínků i starších skautů se nepochybně podepsala také vyšší plodnost. Zatímco v druhé polovině devadesátých let se v Česku rodilo kriticky málo dětí, kolem roku 2005 začalo tohle číslo znovu růst.
 
 <wide><div id="slozeni"></div></wide>
 
 „Postupně jsme se také dopracovali k systému vzdělávání dospívajících a dospělých, díky kterému se kluci a holky v oddílech setkávají s opravdu atraktivním programem reagujícím na vývoj a trendy ve společnosti,“ dodává Trojak.
+
+Jednou z činností, která se během sta let proměnila, jsou takzvané odborky, skautská varianta lovení bobříků. Zatímco před rokem 1918 se skládaly zkoušky z oborů jako _chůva_ a _korespondent_, dnes je to _deskovkář, geocacher_ nebo třeba_smartphonista_.
+
+<wide><div style="overflow: hidden; box-sizing: border-box;">
+<div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky1918.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"</div>
+<div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky1968.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"/></div>
+<div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky2018.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"/></div>
+</div></wide>
+
+_Fotky ukazují podobu skautských odborek: vlevo je jejich těsně poválečná podoba, uprostřed rok 1968, vpravo detail z webu [odborky.skaut.cz](https://odborky.skaut.cz). Foto: Junák_
 
 ## Skauti rostou na Ústecku
 
@@ -79,7 +95,7 @@ Skautské základny jsou po Česku rozprostřené poměrně rovnoměrně: nejhus
 
 <wide><iframe src="https://dev.datarozhlas.cz/skauti-mapa/" width=100% height=800px frameborder=0></iframe></wide>
 
-Relativně nejrychleji skautů přibývá v regionu, který na tom v mnoha jiných ohledech, například [školství]( https://www.irozhlas.cz/zpravy-domov/analyza-regionalniho-skolstvi_1803140740_jab) nebo [nezaměstnanosti](https://interaktivni.rozhlas.cz/sudety/), není dobře – na Ústecku. Jen v posledním roce se počty skautů zvedly téměř o desetinu, v absolutních číslech 180 skautů.
+Relativně nejrychleji skautů přibývá v regionu, který na tom v mnoha jiných ohledech, například [školství]( https://www.irozhlas.cz/zpravy-domov/analyza-regionalniho-skolstvi_1803140740_jab) nebo [nezaměstnanosti](https://interaktivni.rozhlas.cz/sudety/), není dobře – na Ústecku. Jen v posledním roce tu přibylo 180 skautů, což je víc než desetinový nárůst.
 
 „Výhoda Sudet je v tom, že tu podobných aktivit je málo – na rozdíl třeba od Prahy tu nemáme téměř žádnou konkurenci a tak řada dětí přirozeně skončí u nás,“ vysvětluje Jakub Mráček, dlouholetý vedoucí teplického střediska Dvojka. Jen za poslední rok se jeho středisko rozrostlo o víc než dvacítku členů.
 
@@ -95,29 +111,17 @@ Oproti tomu v Karlovarském kraji se počítají na stovky a jde také o jediný
 
 „Právě stárnutí a vylidňování kraje je asi největší problém,“ pokračuje Dvořák. „Ostatně členové krajské rady sami pracují v jiných krajích, většinou v Praze. Což je velmi neobvyklé a komplikuje nám to práci.“
 
-<wide><div style="overflow: hidden; box-sizing: border-box;">
-<div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky1918.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"</div>
-<div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky1968.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"/></div>
-<div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky2018.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"/></div>
-</div></wide>
-
-_Jednou z činností, která se během sta let proměnila, jsou takzvané odborky, skautská varianta lovení bobříků. Fotky ukazují podobu odborek mezi válkami, v roce 1968 a dnes. Zatímco ještě před rokem 1918 se skládaly zkoušky z oborů jako_ chůva _a_ korespondent, _dnes_ je to deskovkář, geocacher _nebo_ smartphonista. _Foto: Junák_
-
 Zanikající oddíly chtějí skauti vyvážit zakládáním oddílů „na zelené louce“. Snaží se vytipovat místa, kde je o skauting zájem a středisko zde chybí.
 
 „Našim hlavním cílem ale není, aby samo ústředí Junáka zakládalo nové jednotky,“ vysvětluje skautka Šárka Pavlásková. „Spíš chceme vytvořit co nejlepší podmínky a podporu pro všechny zájemkyně a zájemce, aby mohli sami založit nový oddíl.“
 
-„Jednu z největších výzev je změnit názor, že skautský oddíl může začít vést pouze někdo, kdo si sám skautingem prošel jako dítě,“ dodává Pavlásková.
+„Jednou z největších výzev je změnit názor, že skautský oddíl může začít vést pouze někdo, kdo si sám skautingem prošel jako dítě,“ dodává Pavlásková.
 
-## Celosvětově je mezi skauty nejvíc muslimů
+## Problémy židovských skautů: o šábesu se necestuje a nevážou uzly
 
-Řada českých skautských oddílů se hlásí ke křesťanství.
+„Na rozdíl od jiných organizací pro děti máme silnější duchovní rozměr,“ říká mluvčí Junáka Barbora Trojak. „Skauti jsou zodpovědní nejen k sobě navzájem, ale i okolí.“
 
-CITACE BRAMBORY
-
-„Celosvětově jsou ale nejpočetnějším náboženstvím mezi skauty muslimové,“ říká tisková mluvčí Junáka Barbora Trojak. „Je to patrné na mezinárodních srazech, jamboree, kde se setkávají skauti ze všech koutů planety bez ohledu na víru. Sama jsem to zažila na anglickém jamboree v roce 2006. Když napršelo a všude bylo bláto, muslimové se za normálního provozu modlili v umývárkách.“
-
-V Česku zase před dvěma lety vznikl oddíl židovských skautů Tuvia.
+Řada skautských oddílů se přímo hlásí k náboženské víře. Mezi nimi jsou dominantní křesťani, ale existuje i výjimka: před dvěma lety vznikl oddíl židovských skautů Tuvia.
 
 „Pro dítě z ortodoxní židovské rodiny je náročné až nemožné stát se plnou součástí oddílu, jezdit s nimi na výpravy, jezdit s nimi na tábory, protože o šábesu se necestuje a nerozdělává oheň, nevážou uzly, všechny skautské věci jsou vlastně zakázané a ještě se jí košer, což je při společném skautském vaření prakticky nemožné,“ [vysvětlila Českému rozhlasu](http://www.rozhlas.cz/nabozenstvi/zpravy/_zprava/novy-oddil-pro-zidovske-skauty-vznika-v-praze--1693997) vedoucí oddílu Hana Šiková.
 
