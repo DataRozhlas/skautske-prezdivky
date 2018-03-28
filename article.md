@@ -4,8 +4,8 @@ authors: ["Jan Boček", "Jan Cibulka"]
 published: "29. března 2018"
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/img_7056_zdroj_-_arc_180327-213650_jab.jpg?itok=e0oyIMHU
 coverimg_note: "Záběry ze skautského tábora. Foto: archiv Břetislava Loubala"
-styles: []
-libraries: [jquery, highcharts, 'https://code.highcharts.com/modules/annotations.js']
+styles: ['https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css', 'https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/MarkerCluster.css', 'https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/MarkerCluster.Default.css']
+libraries: [jquery, highcharts, 'https://code.highcharts.com/modules/annotations.js', 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js', 'https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/leaflet.markercluster.js', 'https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js', 'https://dev.datarozhlas.cz/skauti-mapa/zakladny.js']
 options: []
 ---
 
@@ -21,8 +21,14 @@ Počet skautů letos překonal šedesát tisíc, z toho se přibližně třetina
 
 Generace, která vstupovala do skauta krátce po osvobození, si zase ráda nechala říkat anglicky znějícími jmény – Johny, Mary, George.
 
-<div style="width: 800px; overflow: hidden; display: block;"><div id="maugli"></div><div id="us"></div></div>
-<div style="width: 800px; overflow: hidden; display: block;"><div id="sipy"></div><div id="tolkien"></div></div>
+<div style="max-width: 100%; overflow: hidden; display: block;">
+    <div class="chart small" id="maugli"></div>
+    <div class="chart small" id="us"></div>
+</div>
+<div style="max-width: 100%; overflow: hidden; display: block;">
+    <div class="chart small" id="sipy"></div>
+    <div class="chart small" id="tolkien"></div>
+</div>
 
 Další příležitost dostalo skautské hnutí v roce 1968. Tentokrát jen na dva roky. Generace šedesátých let nicméně zanechala v datech stopu v podobě Rychlonožků, Bidel a Červenáčků.
 
@@ -38,10 +44,15 @@ Po dosud posledním obnovení skauta v roce 1989 zase začaly být populární p
 
 Většina skautských přezdívek se ale neváže k žádnému historickému období a vychází spíš ze sdílených zážitků. Nejčastějším zdrojem jsou zvířecí jména; vůbec nejobvyklejší skautskou přezdívkou je _Veverka_, nejoblíbenějšími ptačími přezdívkami jsou protichůdní _Orel_ a _Kuře_. Běžná je také rodina, pečivo nebo interpunkce.
 
-<wide><div id="prezdivky"></div></wide>
+<wide><div style="max-width: 100%" id="prezdivky"></div></wide>
 
-<div style="width: 800px; overflow: hidden; display: block;"><div id="rodina"></div><div id="ptaci"></div></div>
-<div style="width: 800px; overflow: hidden; display: block;"><div id="pecivo"></div><div id="interpunkce"></div></div>
+<div style="max-width: 100%; overflow: hidden; display: block;">
+    <div class="chart small" id="rodina"></div>
+    <div class="chart small" id="ptaci"></div></div>
+<div style="max-width: 100%; overflow: hidden; display: block;">
+    <div class="chart small" id="pecivo"></div>
+    <div class="chart small" id="interpunkce"></div>
+</div>
 
 ## Indiáni na konci normalizace
 
@@ -51,7 +62,7 @@ Během sedmdesátých a osmdesátých let, kdy byl skaut opět v ilegalitě, se 
 
 Sám Kočí ovšem takové indiánské jméno nikdy nezískal. „Měl jsem asi málo orlích per, to byla u nás indiánů obdoba známějších bobříků,“ vzpomíná.
 
-<img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/sihasapa.jpg" width=600px>
+<img class="embed" src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/sihasapa.jpg" style="max-width: 100%">
 
 _Středoevropští indiáni na konci normalizace – novoročenka pražského kmene Sihasapa z roku 1989. Foto: archiv Petra Kočího_
 
@@ -59,7 +70,7 @@ _Středoevropští indiáni na konci normalizace – novoročenka pražského km
 
 Podobně jako kmen Konestoga se ke skautu po jeho obnovení přihlásila i řada dalších oddílů. Na počátku devadesátých let měl přes osmdesát tisíc členů.
 
-<wide><div id="clenove"></div></wide>
+<wide><div class="chart" id="clenove"></div></wide>
 
 Jenže porevoluční étos zároveň nadlouho zakonzervoval vývoj organizace. Po počátečním boomu začalo členů vytrvale ubývat a řada oddílů zanikla ještě do konce devadesátých let.
 
@@ -75,7 +86,7 @@ To se skautům podařilo. Od roku 2009, kdy mají k dispozici spolehlivá data o
 
 Na rostoucím počtu benjamínků i starších skautů se nepochybně podepsala také vyšší plodnost. Zatímco v druhé polovině devadesátých let se v Česku rodilo kriticky málo dětí, kolem roku 2005 začalo tohle číslo znovu růst.
 
-<wide><div id="slozeni"></div></wide>
+<wide><div class="chart" id="slozeni"></div></wide>
 
 „Postupně jsme se také dopracovali k systému vzdělávání dospívajících a dospělých, díky kterému se kluci a holky v oddílech setkávají s opravdu atraktivním programem reagujícím na vývoj a trendy ve společnosti,“ dodává Trojak.
 
@@ -93,7 +104,10 @@ _Fotky ukazují podobu skautských odborek: vlevo je jejich těsně poválečná
 
 Skautské základny jsou po Česku rozprostřené poměrně rovnoměrně: nejhustší síť je logicky ve velkých městech, ale početně silné oddíly najdeme i v menších obcích.
 
-<wide><iframe src="https://dev.datarozhlas.cz/skauti-mapa/" width=100% height=800px frameborder=0></iframe></wide>
+<wide>
+    <div id="map"></div>
+    <div id="ttip">Vyberte skautské středisko</div>
+</wide>
 
 Relativně nejrychleji skautů přibývá v regionu, který na tom v mnoha jiných ohledech, například [školství]( https://www.irozhlas.cz/zpravy-domov/analyza-regionalniho-skolstvi_1803140740_jab) nebo [nezaměstnanosti](https://interaktivni.rozhlas.cz/sudety/), není dobře – na Ústecku. Jen v posledním roce tu přibylo 180 skautů, což je víc než desetinový nárůst.
 
