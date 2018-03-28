@@ -5,13 +5,20 @@ published: "29. března 2018"
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/img_7056_zdroj_-_arc_180327-213650_jab.jpg?itok=e0oyIMHU
 coverimg_note: "Záběry ze skautského tábora. Foto: archiv Břetislava Loubala"
 styles: ['https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css', 'https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/MarkerCluster.css', 'https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/MarkerCluster.Default.css']
-libraries: [jquery, highcharts, 'https://code.highcharts.com/modules/annotations.js', 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js', 'https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/leaflet.markercluster.js', 'https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js', 'https://dev.datarozhlas.cz/skauti-mapa/zakladny.js']
+libraries: [jquery, highcharts, d3, 'https://code.highcharts.com/modules/annotations.js', 'https://code.jquery.com/jquery-1.12.4.js', 'https://code.jquery.com/ui/1.12.1/jquery-ui.js', 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js', 'https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/leaflet.markercluster.js', 'https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js', 'https://dev.datarozhlas.cz/skauti-mapa/zakladny.js']
 options: []
 ---
 
 ### Nejčastější skautské přezdívky
 
-TADY BUDE SEARCHBOX VE VŠECH PŘEZDÍVKÁCH
+<div class="ui-widget">
+    <label for="tags">Přezdívka:</label>
+    <input id="tags" value="Šiška">
+</div>
+
+<div id="nick-info"></div>
+
+<hr>
 
 Skautské přezdívky ilustrují dějiny komplikovaného dvacátého století. Tři zákazy skauta – nacistický v roce 1940, stalinistický o deset let později a normalizační v roce 1970 – se odráží i v dobových přezdívkách.
 
@@ -34,7 +41,7 @@ Další příležitost dostalo skautské hnutí v roce 1968. Tentokrát jen na d
 
 Během krátkého uvolnění v šedesátých letech do skautu vstoupila řada osobností. Mohlo se tam dát dohromady třeba divadlo Sklep: skautovat začal sklepácký režisér Václav Marhoul, herci Eva Holubová, David Vávra nebo Tomáš Hanák.
 
-„Na nějakém papíře na sloupech bylo ručně napsáno, že se zakládá oddíl vodních skautů,“ popisuje své skautské začátky Tomáš Hanák. „Bylo to, myslím, ještě před okupací, to mi bylo jedenáct let. Na těch sloupech bylo napsáno, že oddíl vede bratr Beneš. Já jsme se omylem domníval, že tam není br. Beneš, ale dr. Beneš, tak jsem ho měl za lékaře, čemuž vůbec neodpovídaly jeho hrubé ruce. Často jsem si říkal, že to vůbec nemůže být chirurg nebo lékař. Byl to br. Beneš, ne dr. Beneš!“
+„Na nějakém papíře na sloupech bylo ručně napsáno, že se zakládá oddíl vodních skautů,“ řekl Radiožurnálu Tomáš Hanák. „Bylo to, myslím, ještě před okupací, to mi bylo jedenáct let. Na těch sloupech bylo napsáno, že oddíl vede bratr Beneš. Já jsem se omylem domníval, že tam není br. Beneš, ale dr. Beneš, tak jsem ho měl za lékaře, čemuž vůbec neodpovídaly jeho hrubé ruce. Často jsem si říkal, že to vůbec nemůže být chirurg nebo lékař. Byl to br. Beneš, ne dr. Beneš!“
 
 „Musím říct, že třeba bobříci byli strašně příjemní. Třeba bobřík mlčení byla velká zkouška a já s tím dodnes vůbec nemám problém.“
 

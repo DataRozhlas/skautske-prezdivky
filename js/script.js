@@ -1,3 +1,54 @@
+d3.csv("../data/nicks.csv", function(data) {
+
+  $(function() {
+
+    var nicks = data.map(function(d) {
+      return d.nickname;
+    })
+
+    $("#tags").autocomplete({
+      source: nicks,
+      change: nickhandler
+    });
+
+    $("#tags").data("ui-autocomplete")._trigger("change");
+
+    function nickhandler() {
+
+      var nick = document.getElementById('tags').value;
+
+      var nickindex = nicks.indexOf(nick);
+
+      var count = data[nickindex].count,
+      vek = data[nickindex].age,
+      every = data[nickindex].every;
+
+      if (vek == "v1") {
+        vek = "pod 10";
+      } else if (vek == "v2") {
+        vek = "11-20";
+      } else if (vek == "v3") {
+        vek = "21-30";
+      } else if (vek == "v4") {
+        vek = "31-40";
+      } else if (vek == "v5") {
+        vek = "41-50";
+      } else if (vek == "v6") {
+        vek = "51-60";
+      } else {
+        vek = "nad 60";
+      }
+
+      var text = "<div><b id=\"count-el\">" + count + "×</b>. Nejčastější je ve věku <b id=\"vek-el\">" + vek + " let</b>, kde ji má každý <b id=\"every-el\">" + every + ".</b></div>"
+
+      document.getElementById("nick-info").innerHTML = text;
+
+    }
+
+  });
+
+});
+
 var colors = ['#ECA038', '#A38456', '#EA614A', '#008836', '#20649B', '#6B96CA', '#A87A93', '#D19C95'];
 
 var pocetClenu = [

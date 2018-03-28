@@ -232,7 +232,10 @@
 <div class="b-data__content" id="content">
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://code.highcharts.com/modules/annotations.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/leaflet.markercluster.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
@@ -241,13 +244,21 @@
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/MarkerCluster.css">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/MarkerCluster.Default.css">
-<style>#slozeni{max-width:400px;min-width:310px;height:500px;margin:1em auto}#map{width:100%;min-height:350px}#ttip{text-align:center;font-size:12}#graf{text-align:center}#chart{max-width:100%;margin:1em auto}.small{max-width:350px;min-width:300px;height:250px;margin:1em auto;float:left}</style>
+<style>#slozeni{max-width:400px;min-width:310px;height:500px;margin:1em auto}#map{width:100%;min-height:350px}#ttip{text-align:center;font-size:12}#graf{text-align:center}#chart{max-width:100%;margin:1em auto}.small{max-width:350px;min-width:300px;height:250px;margin:1em auto;float:left}.ui-widget{font-size:1em;margin:1em 0 0 0}.ui-widget .ui-widget{font-size:1em}.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{font-size:1em}.ui-widget.ui-widget-content{border:1px solid #c5c5c5}.ui-widget-content{border:1px solid #ddd;background:#fff;color:#333}.ui-widget-content a{color:#333}.ui-widget-header{border:1px solid #ddd;background:#e9e9e9;color:#333;font-weight:bold}.ui-widget-header a{color:#333}#count-el{color:#6b96ca;font-size:2em}#vek-el{color:#a38456;font-size:2em}#every-el{color:#008836;font-size:2em}</style>
 <div class="row-main row-main--narrow">
 
 <p class="text-bold text-lg">Junák slaví 50 let od znovupovolení během Pražského jara. Stejně jako tehdy, i dnes skauti zažívají velký návrat.</p>
 
 <h3>Nejčastější skautské přezdívky</h3>
-<p>TADY BUDE SEARCHBOX VE VŠECH PŘEZDÍVKÁCH</p>
+<div class="ui-widget">
+    <label for="tags">Přezdívka:</label>
+    <input id="tags" value="Veverka">
+</div>
+
+<div id="nick-info"></div>
+
+<hr>
+
 <p>Skautské přezdívky ilustrují dějiny komplikovaného dvacátého století. Tři zákazy skauta – nacistický v roce 1940, stalinistický o deset let později a normalizační v roce 1970 – se odráží i v dobových přezdívkách.</p>
 <p>Počet českých skautů, kteří se sdružují v organizaci Junák – český skaut, letos překonal šedesát tisíc. Přibližně třetina z nich se hlásí k nějaké přezdívce. Přestože známe přezdívky pouze současných členů Junáka, jejich věk prozrazuje jména typická pro různá období. Nejstarší generace skautů se nejčastěji inspirovala postavami z Kiplingovy Knihy džunglí: Mauglí, Akéla nebo Balů.</p>
 <p>„Skautské aktivity mají vždy nějaký symbolický rámec,“ vysvětluje mluvčí Junáka Barbora Trojak, sama Brambůrka. „Část programu vlčat, to jsou kluci zhruba mezi osmi a deseti lety, dodnes vychází právě z Knihy džunglí.“</p>
@@ -264,7 +275,7 @@
 
 <p>Další příležitost dostalo skautské hnutí v roce 1968. Tentokrát jen na dva roky. Generace šedesátých let nicméně zanechala v datech stopu v podobě Rychlonožků, Bidel a Červenáčků.</p>
 <p>Během krátkého uvolnění v šedesátých letech do skautu vstoupila řada osobností. Mohlo se tam dát dohromady třeba divadlo Sklep: skautovat začal sklepácký režisér Václav Marhoul, herci Eva Holubová, David Vávra nebo Tomáš Hanák.</p>
-<p>„Na nějakém papíře na sloupech bylo ručně napsáno, že se zakládá oddíl vodních skautů,“ popisuje své skautské začátky Tomáš Hanák. „Bylo to, myslím, ještě před okupací, to mi bylo jedenáct let. Na těch sloupech bylo napsáno, že oddíl vede bratr Beneš. Já jsme se omylem domníval, že tam není br. Beneš, ale dr. Beneš, tak jsem ho měl za lékaře, čemuž vůbec neodpovídaly jeho hrubé ruce. Často jsem si říkal, že to vůbec nemůže být chirurg nebo lékař. Byl to br. Beneš, ne dr. Beneš!“</p>
+<p>„Na nějakém papíře na sloupech bylo ručně napsáno, že se zakládá oddíl vodních skautů,“ řekl Radiožurnálu Tomáš Hanák. „Bylo to, myslím, ještě před okupací, to mi bylo jedenáct let. Na těch sloupech bylo napsáno, že oddíl vede bratr Beneš. Já jsem se omylem domníval, že tam není br. Beneš, ale dr. Beneš, tak jsem ho měl za lékaře, čemuž vůbec neodpovídaly jeho hrubé ruce. Často jsem si říkal, že to vůbec nemůže být chirurg nebo lékař. Byl to br. Beneš, ne dr. Beneš!“</p>
 <p>„Musím říct, že třeba bobříci byli strašně příjemní. Třeba bobřík mlčení byla velká zkouška a já s tím dodnes vůbec nemám problém.“</p>
 <p>„V posledních letech navíc sám cestuji a cestuji skutečně sám,“ pokračuje Hanák. „Často nemám mapu ani navigaci, ale nebojím se jít někam, kde to neznám. Říkám si, že možnost, že zemřu, je až ta poslední. Třeba tam bude nějaké dobrodružství!“</p>
 <p>Po dosud posledním obnovení skauta v roce 1989 zase začaly být populární přezdívky z tolkienovských příběhů: Hobit, Glum, Frodo nebo Gandalf.</p>
@@ -343,7 +354,10 @@ Highcharts.chart('graf',{chart:{type:'column',height:150,},credits:{enabled:fals
 +'data <a href="http://www.skaut.cz/">Skaut</a>'}).addTo(map);var cSize=d3.scaleLinear().domain([0,742]).range([4,25]);var markers=L.markerClusterGroup();zakladny.forEach(function(z){markers.addLayer(L.circleMarker([z.y,z.x],{radius:cSize(z.celkem),color:'#bdbdbd',weight:1,fillColor:(z.vodni=='ano')?'rgba(49,130,189,0.8)':'rgba(222,45,38,0.8)',fillOpacity:1,ageArr:[z.pod6,z.pod15,z.pod18,z.pod26,z.nad26],ttipCont:'<b>'+z.nazev+'</b>'
 +((z.vodni=='ano')?'<br><span style="color:rgba(49,130,189,0.8)">vodní Skauti</span>':'')
 +'<br>členů: '+z.celkem}))});map.addLayer(markers);map.fitBounds(markers.getBounds());markers.on('click',function(e){$('#ttip').html(e.layer.options.ttipCont+'<div id="graf"></div>')
-drawChart(e.layer.options)});var colors=['#ECA038','#A38456','#EA614A','#008836','#20649B','#6B96CA','#A87A93','#D19C95'];var pocetClenu=[[1991,82537],[1992,79337],[1993,72088],[1994,69313],[1995,64484],[1996,63464],[1997,60087],[1998,56979],[1999,54989],[2000,54543],[2001,53028],[2002,51264],[2003,49851],[2004,47863],[2005,41967],[2006,40583],[2007,41844],[2008,42349],[2009,44638],[2010,45252],[2011,45586],[2012,46687],[2013,48093],[2014,50438],[2015,53028],[2016,55533],[2017,57840],[2018,60522]];var prezdivky=[["Veverka",110],["Smíšek",84],["Beruška",79],["Myška",75],["Klíště",72],["Krtek",71],["Bobr",69],["Mája",68],["Pája",64],["Medvěd",63],["Ježek",63],["Míša",61],["Kiki",57],["Liška",57],["Tom",56],["Panda",56],["Kecka",54],["Ještěrka",51],["Žabka",50],["Cvrček",50]]
+drawChart(e.layer.options)});d3.csv("../data/nicks.csv",function(data){$(function(){var nicks=data.map(function(d){return d.nickname;})
+$("#tags").autocomplete({source:nicks,change:nickhandler});$("#tags").data("ui-autocomplete")._trigger("change");function nickhandler(){var nick=document.getElementById('tags').value;var nickindex=nicks.indexOf(nick);var count=data[nickindex].count,vek=data[nickindex].age,every=data[nickindex].every;if(vek=="v1"){vek="pod 10";}else if(vek=="v2"){vek="11-20";}else if(vek=="v3"){vek="21-30";}else if(vek=="v4"){vek="31-40";}else if(vek=="v5"){vek="41-50";}else if(vek=="v6"){vek="51-60";}else{vek="nad 60";}
+var text="<div><b id=\"count-el\">"+count+"×</b>. Nejčastější je ve věku <b id=\"vek-el\">"+vek+" let</b>, kde ji má každý <b id=\"every-el\">"+every+".</b></div>"
+document.getElementById("nick-info").innerHTML=text;}});});var colors=['#ECA038','#A38456','#EA614A','#008836','#20649B','#6B96CA','#A87A93','#D19C95'];var pocetClenu=[[1991,82537],[1992,79337],[1993,72088],[1994,69313],[1995,64484],[1996,63464],[1997,60087],[1998,56979],[1999,54989],[2000,54543],[2001,53028],[2002,51264],[2003,49851],[2004,47863],[2005,41967],[2006,40583],[2007,41844],[2008,42349],[2009,44638],[2010,45252],[2011,45586],[2012,46687],[2013,48093],[2014,50438],[2015,53028],[2016,55533],[2017,57840],[2018,60522]];var prezdivky=[["Veverka",110],["Smíšek",84],["Beruška",79],["Myška",75],["Klíště",72],["Krtek",71],["Bobr",69],["Mája",68],["Pája",64],["Medvěd",63],["Ježek",63],["Míša",61],["Kiki",57],["Liška",57],["Tom",56],["Panda",56],["Kecka",54],["Ještěrka",51],["Žabka",50],["Cvrček",50]]
 var xdata=prezdivky.map(function(d){return d[0]})
 var maugli=[["Akéla",27],["Balů",25],["Mauglí",22],["Ká",4],["Baghíra",2],["Šerchán",2],["Háthí",1]]
 var sipy=[["Bublina",32],["Rychlonožka",14],["Bidlo",13],["Červenáček",11],["Bohouš",10],["Rikitan",5],["Metelka",2],["Losna",2],["Široko",1],["Mirek Dušín",1],]
