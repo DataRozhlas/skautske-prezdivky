@@ -9,10 +9,10 @@ libraries: [jquery, highcharts, d3, 'https://code.highcharts.com/modules/annotat
 options: []
 ---
 
-### Nejčastější skautské přezdívky
+## Zadejte přezdívku
 
 <div class="ui-widget">
-    <label for="tags">Přezdívka:</label>
+    <label for="tags"></label>
     <input id="tags" value="Šiška">
 </div>
 

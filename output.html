@@ -44,10 +44,10 @@
 
 <p class="text-bold text-lg">Junák slaví 50 let od znovupovolení během Pražského jara. Stejně jako tehdy, i dnes skauti zažívají velký návrat.</p>
 
-<h3>Nejčastější skautské přezdívky</h3>
+<h2>Zadejte přezdívku</h2>
 <div class="ui-widget">
-    <label for="tags">Přezdívka:</label>
-    <input id="tags" value="Veverka">
+    <label for="tags"></label>
+    <input id="tags" value="Šiška">
 </div>
 
 <div id="nick-info"></div>
@@ -149,7 +149,7 @@ Highcharts.chart('graf',{chart:{type:'column',height:150,},credits:{enabled:fals
 +'data <a href="http://www.skaut.cz/">Skaut</a>'}).addTo(map);var cSize=d3.scaleLinear().domain([0,742]).range([4,25]);var markers=L.markerClusterGroup();zakladny.forEach(function(z){markers.addLayer(L.circleMarker([z.y,z.x],{radius:cSize(z.celkem),color:'#bdbdbd',weight:1,fillColor:(z.vodni=='ano')?'rgba(49,130,189,0.8)':'rgba(222,45,38,0.8)',fillOpacity:1,ageArr:[z.pod6,z.pod15,z.pod18,z.pod26,z.nad26],ttipCont:'<b>'+z.nazev+'</b>'
 +((z.vodni=='ano')?'<br><span style="color:rgba(49,130,189,0.8)">vodní Skauti</span>':'')
 +'<br>členů: '+z.celkem}))});map.addLayer(markers);map.fitBounds(markers.getBounds());markers.on('click',function(e){$('#ttip').html(e.layer.options.ttipCont+'<div id="graf"></div>')
-drawChart(e.layer.options)});d3.csv("../data/nicks.csv",function(data){$(function(){var nicks=data.map(function(d){return d.nickname;})
+drawChart(e.layer.options)});d3.csv("https://dev.datarozhlas.cz/skautske-prezdivky/data/nicks.csv",function(data){$(function(){var nicks=data.map(function(d){return d.nickname;})
 $("#tags").autocomplete({source:nicks,change:nickhandler});$("#tags").data("ui-autocomplete")._trigger("change");function nickhandler(){var nick=document.getElementById('tags').value;var nickindex=nicks.indexOf(nick);var count=data[nickindex].count,vek=data[nickindex].age,every=data[nickindex].every;if(vek=="v1"){vek="pod 10";}else if(vek=="v2"){vek="11-20";}else if(vek=="v3"){vek="21-30";}else if(vek=="v4"){vek="31-40";}else if(vek=="v5"){vek="41-50";}else if(vek=="v6"){vek="51-60";}else{vek="nad 60";}
 var text="<div><b id=\"count-el\">"+count+"×</b>. Nejčastější je ve věku <b id=\"vek-el\">"+vek+" let</b>, kde ji má každý <b id=\"every-el\">"+every+".</b></div>"
 document.getElementById("nick-info").innerHTML=text;}});});var colors=['#ECA038','#A38456','#EA614A','#008836','#20649B','#6B96CA','#A87A93','#D19C95'];var pocetClenu=[[1991,82537],[1992,79337],[1993,72088],[1994,69313],[1995,64484],[1996,63464],[1997,60087],[1998,56979],[1999,54989],[2000,54543],[2001,53028],[2002,51264],[2003,49851],[2004,47863],[2005,41967],[2006,40583],[2007,41844],[2008,42349],[2009,44638],[2010,45252],[2011,45586],[2012,46687],[2013,48093],[2014,50438],[2015,53028],[2016,55533],[2017,57840],[2018,60522]];var prezdivky=[["Veverka",110],["Smíšek",84],["Beruška",79],["Myška",75],["Klíště",72],["Krtek",71],["Bobr",69],["Mája",68],["Pája",64],["Medvěd",63],["Ježek",63],["Míša",61],["Kiki",57],["Liška",57],["Tom",56],["Panda",56],["Kecka",54],["Ještěrka",51],["Žabka",50],["Cvrček",50]]

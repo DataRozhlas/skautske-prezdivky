@@ -1,4 +1,4 @@
-d3.csv("../data/nicks.csv", function(data) {
+d3.csv("https://dev.datarozhlas.cz/skautske-prezdivky/data/nicks.csv", function(data) {
 
   $(function() {
 
