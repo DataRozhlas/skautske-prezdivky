@@ -97,7 +97,7 @@ Na rostoucím počtu benjamínků i starších skautů se nepochybně podepsala 
 
 „Postupně jsme se také dopracovali k systému vzdělávání dospívajících a dospělých, díky kterému se kluci a holky v oddílech setkávají s opravdu atraktivním programem reagujícím na vývoj a trendy ve společnosti,“ dodává Trojak.
 
-Jednou z činností, která se během sta let proměnila, jsou takzvané odborky, skautská předloha pro Foglarovy bobříky. Zatímco před rokem 1918 se skládaly zkoušky z oborů jako _chůva_ a _korespondent_ a po druhé světové _esperantista, obuvník_ a _telegrafista_, dnes je to _deskovkář, geocacher_ nebo třeba_smartphonista_.
+Jednou z činností, která se během sta let proměnila, jsou takzvané odborky, skautská předloha pro Foglarovy bobříky. Zatímco před rokem 1918 se skládaly zkoušky z oborů jako _chůva_ a _korespondent_ a po druhé světové _esperantista, obuvník_ a _telegrafista_, dnes je to _deskovkář, geocacher_ nebo třeba _smartphonista_.
 
 <wide><div style="overflow: hidden; box-sizing: border-box;">
 <div><img src="https://dev.datarozhlas.cz/skautske-prezdivky/fotky/odborky1918.jpg" style="max-width: 100%; position: relative; float: left; border-color: white; border-style: solid; border-width: 2px;"</div>
