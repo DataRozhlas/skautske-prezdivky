@@ -65,7 +65,7 @@ Většina skautských přezdívek se ale neváže k žádnému historickému obd
 
 Během sedmdesátých a osmdesátých let, kdy byl skaut opět v ilegalitě, se jeho příznivci nejčastěji schovávali v různých sportovních a turistických organizacích nebo Svazarmu, sdružujícím sportovní svazy. Tímhle způsobem se ukrýval například Druhý pražský oddíl _Hoši od Bobří řeky_, v letech 1927 až 1987 vedený Jaroslavem Foglarem. Podobně přežívaly i další skupiny, vzdálené oficiální komunistické ideologii: třeba čeští indiáni.
 
-„Těsně před revolucí jsem vstoupil do indiánského oddílu – tedy kmene – Konestoga,“ vypráví ex-indián Petr Kočí s přezdívkou _Varan_. „Zasloužilí bojovníci měli komplikovaná jména v lakotštině. Samotného mě překvapuje, že si některá pamatuji dodnes. Náš náčelník se například jmenoval _Šagoiewatha_, další byli _Wanigiska_, _Mayašleča-nala_ nebo _Tewagion_. Šaman měl jméno _Lelašikah_ – _Ten, který kráčí proti proudu_.“
+„Těsně před revolucí jsem vstoupil do indiánského oddílu – tedy kmene – Konestoga,“ vypráví exindián Petr Kočí s přezdívkou _Varan_. „Zasloužilí bojovníci měli komplikovaná jména v lakotštině. Samotného mě překvapuje, že si některá pamatuji dodnes. Náš náčelník se například jmenoval _Šagoiewatha_, další byli _Wanigiska_, _Mayašleča-nala_ nebo _Tewagion_. Šaman měl jméno _Lelašikah_ – _Ten, který kráčí proti proudu_.“
 
 Sám Kočí ovšem takové indiánské jméno nikdy nezískal. „Měl jsem asi málo orlích per, to byla u nás indiánů obdoba známějších bobříků,“ vzpomíná.
 
@@ -81,7 +81,7 @@ Podobně jako kmen Konestoga se ke skautu po jeho obnovení přihlásila i řada
 
 Jenže po počátečním boomu začalo členů vytrvale ubývat a ještě do konce devadesátých let řada oddílů zanikla.
 
-„Junák v té době ještě neměl propracovaný a usazený systém vzdělávání, takže je možné, že program nepřinesl dětem a mladým lidem, to, co očekávali nebo by je zajímalo,“ vysvětluje skautská mluvčí Barbora Trojak. „Organizace se tehdy potřebovala trochu usadit, vyřešit praktické problémy. Část členů to zřejmě odradilo a poohlédli se, co by mohli dělat jiného.“
+„Junák v té době ještě neměl propracovaný a usazený systém vzdělávání, takže je možné, že program nepřinesl dětem a mladým lidem to, co očekávali nebo by je zajímalo,“ vysvětluje skautská mluvčí Barbora Trojak. „Organizace se tehdy potřebovala trochu usadit, vyřešit praktické problémy. Část členů to zřejmě odradilo a poohlédli se, co by mohli dělat jiného.“
 
 Propad skončil teprve v roce 2006 na 40 tisících členů.
 
@@ -91,7 +91,7 @@ To se skautům podařilo. Od roku 2009, kdy mají k dispozici spolehlivá data o
 
 „Loni jsme na táborech napočítali téměř 400 tisíc děťodnů,“ dodává skautská mluvčí.
 
-Na rostoucím počtu benjamínků i starších skautů se nepochybně podepsala také vyšší plodnost. Zatímco v druhé polovině devadesátých let se v Česku rodilo kriticky málo dětí, kolem roku 2005 začalo tohle číslo znovu růst.
+Na rostoucím počtu benjamínků i starších skautů se nepochybně podepsala také vyšší plodnost. Zatímco ve druhé polovině devadesátých let se v Česku rodilo kriticky málo dětí, kolem roku 2005 začalo tohle číslo znovu růst.
 
 <wide><div class="chart" id="slozeni"></div></wide>
 
@@ -134,7 +134,7 @@ Oproti tomu v Karlovarském kraji se počítají na stovky a jde také o jediný
 
 Zanikající oddíly chtějí skauti vyvážit zakládáním oddílů „na zelené louce“. Snaží se vytipovat místa, kde je o skauting zájem a středisko zde chybí.
 
-„Našim hlavním cílem ale není, aby samo ústředí Junáka zakládalo nové jednotky,“ vysvětluje skautka Šárka Pavlásková. „Spíš chceme vytvořit co nejlepší podmínky a podporu pro všechny zájemkyně a zájemce, aby mohli sami založit nový oddíl.“
+„Naším hlavním cílem ale není, aby samo ústředí Junáka zakládalo nové jednotky,“ vysvětluje skautka Šárka Pavlásková. „Spíš chceme vytvořit co nejlepší podmínky a podporu pro všechny zájemkyně a zájemce, aby mohli sami založit nový oddíl.“
 
 „Jednou z největších výzev je změnit názor, že skautský oddíl může začít vést pouze někdo, kdo si sám skautingem prošel jako dítě,“ dodává Pavlásková.
 
@@ -148,6 +148,6 @@ Pro část oddílů je pak duchovní program výraznější součástí jejich �
 
 Oddíl navazuje na tradici prvorepublikového židovského skautingu. Cílem bylo vychovat skauty k odchodu do pouště a práci na novém židovském státu.
 
-„Byli tak úspěšní, že měli problém s udržením členské základny, protože se jim členové stěhovali do Palestiny a tím pádem jim ubývali tady,“ doplňuje Šiková.
+„Byli tak úspěšní, že měli problém s udržením členské základny, protože se jim členové stěhovali do Palestiny, a tím pádem jim ubývali tady,“ doplňuje Šiková.
 
 Z hlediska náboženství jsou v celosvětovém měřítku – skautů je na světě přes padesát milionů – nejpočetnější skupinou muslimové.
