@@ -8,7 +8,8 @@ d3.csv("https://dev.datarozhlas.cz/skautske-prezdivky/data/nicks.csv", function(
 
     $("#tags").autocomplete({
       source: nicks,
-      change: nickhandler
+      change: nickhandler,
+      minLength: 3
     });
 
     $("#tags").data("ui-autocomplete")._trigger("change");
@@ -103,11 +104,11 @@ var prezdivky = [
   ["Ještěrka",51],
   ["Žabka",50],
   ["Cvrček",50]
-]
+];
 
 var xdata = prezdivky.map(function(d) {
         return d[0]
-    })
+    });
 
 var maugli = [
   ["Akéla",27],
@@ -117,7 +118,7 @@ var maugli = [
   ["Baghíra",2],
   ["Šerchán",2],
   ["Háthí",1]
-]
+];
 
 var sipy = [
   ["Bublina",32],
@@ -130,7 +131,7 @@ var sipy = [
   ["Losna",2],
   ["Široko",1],
   ["Mirek Dušín",1],
-]
+];
 
 var us = [
   ["Jerry",39],
@@ -143,7 +144,7 @@ var us = [
   ["George",13],
   ["Kitty",12],
   ["Jack",12]
-]
+];
 
 var tolkien = [
   ["Smíšek",84],
@@ -156,23 +157,23 @@ var tolkien = [
   ["Legolas",3],
   ["Thorin",2],
   ["Gimli",2]
-]
+];
 
 var xmaugli = maugli.map(function(d) {
         return d[0]
-    })
+    });
 
 var xsipy = sipy.map(function(d) {
         return d[0]
-    })
+    });
 
 var xus = us.map(function(d) {
         return d[0]
-    })
+    });
 
 var xtolkien = tolkien.map(function(d) {
         return d[0]
-    })
+    });
 
 var ptaci = [
   ["Orel",34],
@@ -185,7 +186,7 @@ var ptaci = [
   ["Racek",18],
   ["Kukačka",16],
   ["Poštolka",15]
-]
+];
 
 var rodina = [
   ["Děda",11],
@@ -198,7 +199,7 @@ var rodina = [
   ["Babča",6],
   ["Omyl",3],
   ["Synek",2]
-]
+];
 
 var pecivo = [
   ["Piškot",45],
@@ -211,26 +212,26 @@ var pecivo = [
   ["Chleba",2],
   ["Loupák",1],
   ["Kaiserka",1]
-]
+];
 
 var interpunkce = [
   ["Tečka",13],
   ["Otazník",11],
   ["Čárka",3],
   ["Vykřičník",2]
-]
+];
 
 var xptaci = ptaci.map(function(d) {
         return d[0]
-    })
+    });
 
 var xrodina = rodina.map(function(d) {
         return d[0]
-    })
+    });
 
 var xpecivo = pecivo.map(function(d) {
         return d[0]
-    })
+    });
 
 var xinterpunkce = interpunkce.map(function(d) {
         return d[0]
@@ -239,32 +240,32 @@ var xinterpunkce = interpunkce.map(function(d) {
 var benjaminci = [
   ['rok 2009', 0],
   ['rok 2018', 4688]
-]
+];
 
 var vlcata = [
   ['rok 2009', 15737],
   ['rok 2018', 21451]
-]
+];
 
 var skauti = [
   ['rok 2009', 9067],
   ['rok 2018', 13065]
-]
+];
 
 var roveri = [
   ['rok 2009', 7604],
   ['rok 2018', 9195]
-]
+];
 
 var dospeli = [
   ['rok 2009', 5164],
   ['rok 2018', 5546]
-]
+];
 
 var ostatni = [
   ['rok 2009', 7066],
   ['rok 2018', 6577]
-]
+];
 
 $(function () {
 

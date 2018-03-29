@@ -1,3 +1,7 @@
+li {
+    background: none !important;
+}
+
 #slozeni {
     max-width: 400px;
     min-width: 310px;
