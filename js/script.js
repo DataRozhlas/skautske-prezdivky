@@ -8,11 +8,35 @@ d3.csv("https://dev.datarozhlas.cz/skautske-prezdivky/data/nicks.csv", function(
 
     $("#tags").autocomplete({
       source: nicks,
-      change: nickhandler,
       minLength: 3
     });
 
-    $("#tags").data("ui-autocomplete")._trigger("change");
+    $("#tags").click(function() {
+            $(this).val("");
+    });
+
+
+    $(".ui-menu").click(function () {
+      nickhandler();
+    });
+
+    $("#tags").on("keydown", function (event) {
+        if (event.which === 13) {
+            $(".ui-menu").hide();
+            nickhandler();
+        }
+    });    
+
+    var timeout = 0;
+    $("#tags").on("input", function () {
+        window.clearTimeout(timeout);
+        var isNick = nickhandler();
+        timeout = window.setTimeout( function () {
+                if (isNick === true) {
+                  $(".ui-menu").hide();
+                }
+        }, 3000);
+    });    
 
     function nickhandler() {
 
@@ -20,9 +44,14 @@ d3.csv("https://dev.datarozhlas.cz/skautske-prezdivky/data/nicks.csv", function(
 
       var nickindex = nicks.indexOf(nick);
 
-      var count = data[nickindex].count,
-      vek = data[nickindex].age,
-      every = data[nickindex].every;
+      try {
+        var count = data[nickindex].count,
+        vek = data[nickindex].age,
+        every = data[nickindex].every;
+      }
+      catch(err) {
+        return false;
+      }
 
       if (vek == "v1") {
         vek = "pod 10";
@@ -44,6 +73,7 @@ d3.csv("https://dev.datarozhlas.cz/skautske-prezdivky/data/nicks.csv", function(
 
       document.getElementById("nick-info").innerHTML = text;
 
+      return true;
     }
 
   });

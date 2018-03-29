@@ -2,6 +2,14 @@ li {
     background: none !important;
 }
 
+hr {
+    max-width: none !important;
+}
+
+.ui-menu {
+    max-width: 193.8px;
+}
+
 #slozeni {
     max-width: 400px;
     min-width: 310px;
